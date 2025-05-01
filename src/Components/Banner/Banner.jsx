@@ -6,7 +6,7 @@ import bannerIcon2 from "../../assets/backup_table.png";
 
 const Banner = () => {
   return (
-    <div className="flex gap-10 mx-10 justify-center relative">
+    <div className="flex gap-10 mx-10 mb-25 justify-center relative ">
       <div className=" w-1/2 p-10">
         <div className="mb-10">
           <h2 className="text-7xl mb-10">Your AI-Powered Sales Coach</h2>
@@ -25,7 +25,7 @@ const Banner = () => {
         <div className="flex gap-5 justify-around">
           <div className="flex items-center gap-4">
             <div className="p-4 bg-white shadow-xl rounded-xl">
-              <img src={bannerIcon1} alt="" />
+              <img src={bannerIcon2} alt="" />
             </div>
             <div>
               <h2 className="text-5xl">2000+</h2>
@@ -34,7 +34,7 @@ const Banner = () => {
           </div>
           <div className="flex items-center gap-4">
             <div className="p-4 bg-white shadow-xl rounded-xl">
-              <img src={bannerIcon2} alt="" />
+              <img src={bannerIcon1} alt="" />
             </div>
             <div>
               <h2 className="text-5xl">1700+</h2>
@@ -45,9 +45,9 @@ const Banner = () => {
       </div>
       <div className=" w-1/2  ">
         <div className="">
-          <img src={bannerImg} alt="" />
+          <img className="w-6/9 mx-auto" src={bannerImg} alt="" />
         </div>
-        <div className="card lg:max-w-2/8 bg-base-100 card-lg shadow-2xl lg:absolute lg:-bottom-20 lg:right-3/10 ">
+        <div className="card lg:max-w-2/8 bg-base-100 card-lg shadow-2xl lg:absolute lg:-bottom-6 lg:right-3/11 ">
           <div className="card-body">
             <div className="flex justify-around ga-5  mb-8">
             <h2 className="text-5xl font-medium">71+</h2>
